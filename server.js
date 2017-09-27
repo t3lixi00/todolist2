@@ -5,8 +5,8 @@ var app = express();
 var port = process.env.PORT || 1337;
 
 //mssql = require('mssql'),
-//db = require('./api/models/todoListModel'),
-//bodyParser = require('body-parser');
+db = require('./api/models/todoListModel');
+bodyParser = require('body-parser');
 
 
 
