@@ -1,8 +1,11 @@
 {
   "name": "todolist",
-  "version": "7.4.0",
+  "version": "1.0.0",
   "description": "Restful todolistapi",
   "main": "server.js",
+  "engines":{
+      "node": ">=7.4.0"
+  },
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
