@@ -11,8 +11,8 @@ var port = process.env.PORT || 1337;
 
 
 
-//app.use(bodyParser.urlencoded({ extended: true}));
-//app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true}));
+app.use(bodyParser.json());
 
 var routes = require('./api/routes/todoListRoutes'); //importing route
 routes(app); //register the route
