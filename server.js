@@ -2,7 +2,7 @@
 
 var express = require('express');
 var app = express();
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 1337;
 
 mssql = require('mssql'),
 db = require('./api/models/todoListModel'),
