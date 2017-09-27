@@ -1,10 +1,10 @@
 // protocols
 
-//var express = require('express');
-//var app = express();
-//port = process.env.PORT || 3000;
+var express = require('express');
+var app = express();
+var port = process.env.PORT || 3000;
 
-/*mssql = require('mssql'),
+mssql = require('mssql'),
 db = require('./api/models/todoListModel'),
 bodyParser = require('body-parser');
 
@@ -19,9 +19,9 @@ routes(app); //register the route
 
 
 app.listen(port);
-console.log('to do list RESTful API server started on: ' + port);*/
+console.log('to do list RESTful API server started on: ' + port);
 
-const express = require('express')
+/*const express = require('express')
 const app = express()
 
 app.get('/', function (req, res) {
@@ -31,4 +31,4 @@ app.get('/', function (req, res) {
 var port = process.env.PORT || 1337;
 app.listen(port, function () {
   console.log('Example app listening on port 3000!')
-})
+})*/
